@@ -4,9 +4,11 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ContactManager"
+        xmlns:uc="clr-namespace:ContactManager.UserControls"
         mc:Ignorable="d"
         Title="Contact Manager" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <DockPanel>
+        <uc:SearchBar DockPanel.Dock="Top" />
+
+    </DockPanel>
 </Window>

@@ -16,11 +16,11 @@ using System.Windows.Shapes;
 namespace ContactManager.UserControls
 {
     /// <summary>
-    /// Interaction logic for SearchBar.xaml
+    /// Interaction logic for SideBar.xaml
     /// </summary>
-    public partial class SearchBar : UserControl
+    public partial class SideBar : UserControl
     {
-        public SearchBar()
+        public SideBar()
         {
             InitializeComponent();
         }
