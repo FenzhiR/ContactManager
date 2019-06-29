@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="Contact Manager" Height="450" Width="800">
     <DockPanel>
-        <uc:SearchBar DockPanel.Dock="Top" />
+        <!--<uc:SearchBar DockPanel.Dock="Top" />-->
 
     </DockPanel>
 </Window>
