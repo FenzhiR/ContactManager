@@ -16,7 +16,7 @@ using System.Windows.Shapes;
 namespace ContactManager.UserControls
 {
     /// <summary>
-    /// Interaction logic for Test.xaml
+    /// Interaction logic for SearchBar.xaml
     /// </summary>
     public partial class SearchBar : UserControl
     {
