@@ -55,6 +55,11 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Model\Address.cs" />
+    <Compile Include="Model\Contact.cs" />
+    <Compile Include="Model\ContactRepository.cs" />
+    <Compile Include="Model\States.cs" />
+    <Compile Include="Notifier.cs" />
     <Compile Include="UserControls\SideBar.xaml.cs">
       <DependentUpon>SideBar.xaml</DependentUpon>
     </Compile>
@@ -109,7 +114,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Model\" />
     <Folder Include="Presenters\" />
     <Folder Include="Resources\" />
     <Folder Include="Views\" />
